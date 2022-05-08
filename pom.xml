@@ -37,5 +37,16 @@
             <version>2.13.1</version>
         </dependency>
     </dependencies>
-
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.2</version>
+                <!--                <configuration>-->
+                <!--                    <webappDirectory>/sample/servlet/container/deploy/directory</webappDirectory>-->
+                <!--                </configuration>-->
+            </plugin>
+        </plugins>
+    </build>
 </project>
